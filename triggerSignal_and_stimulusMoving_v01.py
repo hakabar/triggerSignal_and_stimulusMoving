@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 Software developed by Diego Alnso San Alberto using PsychoPy2 Builder
-This software send a trigger signal via a NI USB 6008 DAQ digital output (port1/line1) to a control PC, wait 10 seconds (required to wait untill other instruments are ready to work)
- and display visual stimulus (blue bars) across the screen. the visual stimulus move as follows:
+This software send a trigger signal via a NI USB 6008 DAQ digital output (port1/line1) to a control PC and display visual stimulus (blue bars) across the screen. 
+
+We can set the duration of the experiment at the beginning of the experiment (experiment_time) and the software will divide the time equitably among all the stimulus patterns (stimulus_time)
+
+The visual stimulus move as follows:
     - left to right as many times as requested in COUNTER_LOOP
     - right to left as many times as requested in COUNTER_LOOP
     - corner bottom left to corner top right as many times as requested in COUNTER_LOOP
