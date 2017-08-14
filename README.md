@@ -7,12 +7,12 @@ We can set the duration of the experiment at the beginning of the experiment (ex
 Information regarding the visual stimulus (time spend in the screen, angular velocity, position of the pattern in the screen...) is stored in a .txt file
 
 The visual stimulus move as follows:
-    - left to right as many times as requested in COUNTER_LOOP
-    - right to left as many times as requested in COUNTER_LOOP
-    - corner bottom left to corner top right as many times as requested in COUNTER_LOOP
-    - corner top right to corner bottom left as many times as requested in COUNTER_LOOP
-    - bottom of the screen to top of the screen as many times as requested in COUNTER_LOOP
-    - top of the screen t bottom of the screen as many times as requested in COUNTER_LOOP
+- left to right as many times as requested in COUNTER_LOOP
+- right to left as many times as requested in COUNTER_LOOP
+- corner bottom left to corner top right as many times as requested in COUNTER_LOOP
+- corner top right to corner bottom left as many times as requested in COUNTER_LOOP
+- bottom of the screen to top of the screen as many times as requested in COUNTER_LOOP
+- top of the screen t bottom of the screen as many times as requested in COUNTER_LOOP
 
 This experiment was created using PsychoPy2 Experiment Builder (v1.79.01), Thu 16 Feb 2017 04:27:52 PM PST
 If you publish work using this script    please cite the relevant PsychoPy publications
